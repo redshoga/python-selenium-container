@@ -9,8 +9,15 @@ docker build -t redshoga/python-scraper .
 # Sample
 
 
+for Windows user
+
 ```
 docker run -it --rm -v /c/Users/redshoga/Desktop/python-scraping/src:/share redshoga/python-scraper python /share/test.py
+```
+
+for Linux user
+
+```
 docker run -it --rm -v $(pwd):/share redshoga/python-scraper python /share/test.py
 ```
 
