@@ -13,7 +13,7 @@ RUN wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key
 RUN pip install selenium
 
 # Install ChromeDriver
-ADD https://chromedriver.storage.googleapis.com/2.45/chromedriver_linux64.zip /opt/chrome/
+ADD https://chromedriver.storage.googleapis.com/76.0.3809.68/chromedriver_linux64.zip /opt/chrome/
 RUN cd /opt/chrome/ && \
     unzip chromedriver_linux64.zip
 ENV PATH /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/chrome
