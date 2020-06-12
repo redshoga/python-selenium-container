@@ -1,4 +1,6 @@
-# 
+# python-selenium-container
+
+Please update the URL of chromium driver to the correct version accordingly. Otherwise, it will not work properly.
 
 # Build
 
